@@ -5,7 +5,7 @@ public class Main {
         cliente.edad=22;
         cliente.telefono=65982612;
         cliente.nombre="Jorge";
-        cliente.credito= (float)256.56;
+        cliente.credito= 256.56;
 
         System.out.println("El cliente "+cliente.nombre);
         System.out.println("tiene "+cliente.edad+" años");
@@ -18,7 +18,7 @@ public class Main {
         trabajador.edad=21;
         trabajador.telefono=56894526;
         trabajador.nombre="Luis";
-        trabajador.salario= (float)2150.53;
+        trabajador.salario= 2150.53;
 
         System.out.println("El trabajador "+trabajador.nombre);
         System.out.println("tiene "+trabajador.edad+" años");
@@ -34,11 +34,11 @@ class Persona{
 }
 
 class Cliente extends Persona{
-    float credito;
+    double credito;
 }
 
 class Trabajador extends Persona {
-    float salario;
+    double salario;
 }
 
 
